@@ -1,0 +1,69 @@
+.image img {
+  width: 350px;
+  text-align: center;
+
+  border-radius: 10px;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.card {
+  height: 560px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 20px;
+
+  margin: auto;
+  width: 350px;
+}
+.card h2 {
+  color: white;
+  font-size: 20px;
+}
+.card p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 0%;
+}
+.card .contaire {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0%;
+}
+.card .contaire span {
+  color: rgba(0, 247, 255, 0.623);
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.card .text img {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.card .text {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+.card .contaire scane {
+  color: hsl(215, 51%, 70%);
+}
+.card .text h4 {
+  color: white;
+  font-size: 15px;
+}
+.card .text h5 {
+  color: hsl(215, 51%, 70%);
+}
+.custome-ligne {
+  display: inline-block;
+  margin-top: 50px;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(215, 51%, 70%);
+  margin: 1px 0px;
+}
